@@ -52,6 +52,12 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+        agent: {
+          blue: '#0062FF',
+          'blue-light': '#3D8BFF',
+          'blue-dark': '#0046B8',
+          'blue-glow': '#3D8BFF',
+        },
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
