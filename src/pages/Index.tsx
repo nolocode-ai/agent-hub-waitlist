@@ -7,8 +7,10 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <DynamicBackground />
-      <DashboardPreview />
-      <WaitlistForm />
+      <div className="relative z-10 container mx-auto px-4 flex flex-col items-center">
+        <WaitlistForm />
+        <DashboardPreview />
+      </div>
     </div>
   );
 };
