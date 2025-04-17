@@ -115,4 +115,12 @@
       linear-gradient(90deg, rgba(61, 139, 255, 0.2) 1px, transparent 1px);
     background-size: 40px 40px;
   }
+
+  .glass-bg {
+    @apply backdrop-blur-xl bg-black/20 border border-white/10;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 text-transparent bg-clip-text;
+  }
 }
